@@ -30,7 +30,7 @@ jobs:
       - name: Build web app
         run: npm run build
 
-      - name: Add and Sync Capacitor Android
+      - name: Sync Capacitor Android
         run: |
           npx cap add android || true
           npx cap sync android
